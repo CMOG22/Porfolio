@@ -383,6 +383,99 @@ header{
     width: 13rem !important;
     margin-top: 5rem;
 }
+/*Sobre mi*/
+.sobre_mi{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: var(--fondo_body);
+}
+.descargar{
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: -4rem;
+}
+
+.fr2_sobre{
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: 25% 75%;
+    padding: 1rem;
+}
+.foto{
+    width: 10rem;
+}
+.foto_center{
+    display: flex;
+    justify-content: center;
+}
+.fr2_cv{
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: 20% 80%;
+    padding: 1rem;
+}
+.cv {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.experiencia{
+    font-size: 1.5rem;
+    padding-top: 0rem;
+}
+.formacion{
+    list-style-type: none !important;
+}
+table, th,td{
+    border: 1px solid white;
+    width: 50rem;
+    height: 5rem;    
+}
+table{
+    margin-left: 0rem;
+    width: 100%;
+}
+td{
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+th{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+td{
+    color: white;
+    width: 20rem;
+    text-align: center;
+}
+.formacion_curso, .formacion_escu, .formacion_ano, .formacion_doc{
+    color: white;
+    list-style-type: none;
+    margin-left: 0rem;
+}
+.formacion_escu, .formacion_ano, .formacion_doc{
+    padding-left: 2rem;
+}
+.formacion_escu{
+    font-size: 1.3rem;
+}
+.formacion_curso{
+    font-size: 1.7rem;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 1px solid #65F3AB;
+    width: 45rem;
+    max-width: 100%;
+}
+.formacion_ano, .formacion_doc{
+    font-size: 1.3rem;
+}
 /*Tablet*/
 @media(max-width:768px){
 
