@@ -87,6 +87,62 @@ header{
     color: black;
     font-weight: bold;
 }
+/*footer*/
+.footer_section{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.fr3_footer{
+    background-color: rgba(37, 38, 42, 0.7);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 3rem;
+}
+.menu_footer h4{
+    padding-left: 5rem;
+}
+.menu_footer li{
+    list-style: none;
+    margin-right: 18rem ;
+    padding-left: 5rem;
+    width: 5rem;
+}
+.menu_footer li a{
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    margin-left: -2rem;
+}
+.menu_footer li a:hover:not(.active){
+    color: black;
+    background-color: var(--verde);
+}
+.fr2_footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem;
+}
+.fr5_redes_footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem 3rem 3rem;
+    max-width: 100%;
+}
+.derechos{
+    background-color: rgba(37, 38, 42, 0.7);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.derechos a{
+    
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
 .topnav .icon {
     display: none;
 }
