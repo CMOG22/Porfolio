@@ -58,7 +58,7 @@ header{
 .header_menu{
     display: flex;
     justify-content: initial;
-    width: 95%;
+    width: 100%;
     max-width: 100%;
 }
 .header_logo{
@@ -673,6 +673,9 @@ input[type=submit]{
 /*Smartphone*/
 @media(max-width:400px){
         /*menu*/
+    .header_menu{
+        justify-content:end;
+    }
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -692,5 +695,199 @@ input[type=submit]{
         float: none;
         display: block;
         text-align: left;
+    }
+    /*header*/
+    .header_fr2{
+        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .fr2_header{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .logo{
+        justify-content: center;
+        margin-left: -1rem;
+    }
+    #collapseNav{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    /*footer*/
+    .footer_section{
+        margin: 0;;
+    }
+    .fr3_footer{
+        grid-template-columns: 1fr;
+    }
+    .menu_footer{
+        margin-left: 2rem;
+    }
+    .menu_footer h4{
+        padding: 0;
+        text-align: center;
+    }
+    .menu_footer li{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .fr3_footer h4{
+        text-align: center;
+    }
+    .fr2_footer{
+        margin-left: 5rem;
+    } 
+    .footer_redes h4{
+        text-align: center;
+        margin-left: 5rem;
+    }
+    .fr5_redes_footer{
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    /*home*/
+    .welcome h2{
+        animation: shine 15s linear infinite;
+    }
+    .home_page{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    .body_fr2_1{
+        grid-template-columns: 100%;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+
+    }
+    .frase{
+        font-size: 1.8rem;
+        width: 100%;
+        height: 4rem;
+        line-height: 30px;
+    }
+    .frase_2{
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .chat{
+        width: 100%;
+    }
+    .img_full img{
+        width: 100%;
+    }
+    .watermark_full::after{
+        font-size: 3rem;
+        top: 8rem;
+        right: 3rem;
+    }
+    .body_fr2{
+        grid-template-columns: 100%;
+        margin-left: 0rem;
+    }
+    .present{
+        font-size: 1.5rem;
+    }
+    .introduction{
+        font-size: 3rem;
+    }
+    /*Servicios*/
+    .servicios{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    .webdeveloper img{
+        width: 100%;
+    }
+    /*Proyectos*/
+    .proyectos{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    .wordpress{
+        grid-template-columns: 1fr 1fr;
+    }
+    .wordpress_2{
+        height: 15rem;
+    }
+    .wordpress_2 img{
+        width: 7rem !important;
+        padding-top: 3.5rem;
+    }
+    .abogado{
+        padding-top: 1rem;
+    }
+    .chabat{
+        padding-top: 5rem !important;
+    }
+    .front{
+        grid-template-columns: 50% 50%;
+    }
+    .front_2 img{
+        width: 10rem !important;
+    }
+    /*sobre mi*/
+    .sobre_mi{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+
+    }
+    .descargar{
+        padding-top: 1rem;
+        margin-bottom: 0rem;
+    }
+    .fr2_sobre{
+        grid-template-columns: 100%;
+    }
+    .fr2_cv{
+        grid-template-columns: 100%;
+    }
+    .fr2_cv a{
+        font-size: 1.2rem;
+    }
+
+    th{
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    td{
+        font-size: 0.8rem;
+    }
+    .formacion_curso{
+        width: 100%;
+    }
+    /*Contacto*/
+    .contacto{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0;
+    }
+    .home_section{
+        grid-template-columns: 1fr;
+    }
+    .contac_1sec, .formulario{
+        padding: 2rem;
+        margin-top: 1rem;
+    }
+    .map{
+        grid-template-columns: 100%;
+        margin: 0;
+    }
+    .map2{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
