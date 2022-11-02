@@ -481,9 +481,9 @@ td{
     background-color: var(--fondo_body);
     display: grid;
     column-gap: 1.5rem;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     padding-top: 5rem;
-    padding-right: 3rem;
+    padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 2rem;
     margin-left: 5rem;
@@ -543,8 +543,8 @@ input[type=submit]{
 .map{
     background-color: var(--fondo_body);
     column-gap: 1.5rem;
-    grid-template-columns: 100%;
-    margin-left: 28rem;
+    grid-template-columns: 1fr;
+    margin-left: 5rem;
     margin-right: 5rem;
     padding-bottom: 2rem;
     display: flex;
