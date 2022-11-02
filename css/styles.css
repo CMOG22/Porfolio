@@ -476,6 +476,90 @@ td{
 .formacion_ano, .formacion_doc{
     font-size: 1.3rem;
 }
+/*Contacto*/
+.contacto{
+    background-color: var(--fondo_body);
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: 50% 50%;
+    padding-top: 5rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.contacto h1{
+    margin-left: 0rem;
+}
+.contac_1sec{
+    border-radius: 10px;
+    padding: 5rem;
+    background-color: var(--fondo);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contac{
+    display: flex;
+    justify-content: space-around;
+}
+.formulario{
+    border-radius: 10px;
+    padding: 5rem;
+    background-color: var(--fondo);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+input[type=text], select, input[type=tel], input[type=email],textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=checkbox]{
+    margin-left: -4rem;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]{
+    background-color: var(--verde);
+    border-radius: 10px;
+    width: 10rem;
+    height: 2.5rem;
+    font-weight: bold;
+
+}
+.map{
+    background-color: var(--fondo_body);
+    column-gap: 1.5rem;
+    grid-template-columns: 100%;
+    margin-left: 28rem;
+    margin-right: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.map2{
+    display: flex;
+    justify-content: center;
+    background-color: var(--fondo);
+    border-radius: 10px;
+    margin: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 50rem;
+}
 /*Tablet*/
 @media(max-width:768px){
 
