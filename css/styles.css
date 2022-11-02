@@ -620,6 +620,55 @@ input[type=submit]{
     .introduction{
         font-size: 3rem;
     }
+    /*servicios*/
+    .servicios{
+        margin: 0;
+    }
+    /*proyectos*/
+    .proyectos{
+        margin: 0;
+    }
+    .wordpress{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .wordpress_2 h4{
+        font-size: 1.4rem;
+    }
+    .front{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /*sobre mi*/
+    .sobre_mi{
+        margin: 0;
+    }
+    .fr2_cv{
+        grid-template-columns: 1fr;
+    }
+    .fr2_cv a{
+        font-size: 1.5rem;
+    }
+    table{
+        max-width: 90%;
+    }
+    .formacion_curso{
+        max-width: 40rem;
+    }
+    /*Contacto*/
+    .contacto{
+        margin: 0;
+    }
+    .contacto{
+        grid-template-columns: 1fr;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .map{
+        margin: 0;
+    }
+    .map2{
+        margin: 0;
+        max-width: 90%;
+    }
 }
 /*Smartphone*/
 @media(max-width:400px){
