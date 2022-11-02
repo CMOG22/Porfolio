@@ -296,6 +296,27 @@ header{
     font-size: 1.1rem;
     text-align: justify;
 }
+/*Servicios*/
+.servicios{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: var(--fondo_body);
+}
+.webdeveloper{
+    display: flex;
+    justify-content: center;
+}
+.webdeveloper img{
+    width: 40rem;
+}
+.servicios li{
+    color: white;
+    list-style-type:square;
+}
 /*Tablet*/
 @media(max-width:768px){
 
