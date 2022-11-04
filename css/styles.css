@@ -87,14 +87,15 @@ header{
     grid-template-columns: 30% 30% 30%;
     column-gap: 3rem;
 }
+
 .menu_footer h4{
     padding-left: 5rem;
 }
 .menu_footer li{
     list-style: none;
-    margin-right: 18rem ;
-    padding-left: 5rem;
-    width: 5rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
 }
 .menu_footer li a{
     display: block;
