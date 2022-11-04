@@ -46,9 +46,16 @@ header{
 .navbar{
     margin-left: 5rem;
     margin-right: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
 }
 .navbar a{
     color: white; 
+}
+.nav-link:hover{
+    background-color: var(--verde);
+    font-style: italic;
+    font-weight: 500;
 }
 .navbar-brand{
     display: flex;
