@@ -55,12 +55,14 @@ header{
     width: 2rem;
     padding-top: 0.5rem;
 }
+/*
 .header_menu{
     display: flex;
     justify-content: initial;
     width: 100%;
     max-width: 100%;
 }
+*/
 .header_logo{
     display: flex;
     justify-content: end;
