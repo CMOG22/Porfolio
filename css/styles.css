@@ -651,7 +651,14 @@ label{
     }
     /*Contacto*/
     .contacto{
-        margin: 0;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .contacto .col{
+        margin-left: 11rem;
+        margin-right: 15rem;
+        margin-top: 5rem;
+        border: 1px solid white;
     }
     .contacto{
         grid-template-columns: 1fr;
