@@ -673,26 +673,6 @@ label{
         width: 100% !important;
         margin-left: 0;
     }
-    
-    /*header*/
-    .header_fr2{
-        grid-template-columns: 1fr;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-    .fr2_header{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-    .logo{
-        justify-content: center;
-        margin-left: -1rem;
-    }
-    #collapseNav{
-        flex-wrap: wrap;
-        width: 80%;
-    }
     /*footer*/
     .footer_section{
         margin: 0;;
