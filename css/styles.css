@@ -658,7 +658,6 @@ label{
         margin-left: 11rem;
         margin-right: 15rem;
         margin-top: 5rem;
-        border: 1px solid white;
     }
     .contacto{
         grid-template-columns: 1fr;
@@ -834,15 +833,15 @@ label{
         width: 100%;
     }
     /*Contacto*/
-    .contacto{
-        padding-top: 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin: 0;
+    .col{
+        margin-left: 30rem !important;
+        margin-right: 35rem !important;
+        width: 300px !important;
     }
-    .home_section{
-        grid-template-columns: 1fr;
+    .col iframe{
+        width: 100%;
     }
+
     .contac_1sec, .formulario{
         padding: 2rem;
         margin-top: 1rem;
